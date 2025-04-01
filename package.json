@@ -1,0 +1,26 @@
+{
+  "name": "lit-capacity-sign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node src/server.ts",
+    "client": "ts-node src/client.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lit-protocol/constants": "^6.11.5",
+    "@lit-protocol/contracts-sdk": "^6.11.5",
+    "@lit-protocol/lit-auth-client": "^6.11.5",
+    "@lit-protocol/lit-node-client": "^6.11.5",
+    "@lit-protocol/types": "^6.11.5",
+    "@types/express": "^5.0.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.8.0",
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
